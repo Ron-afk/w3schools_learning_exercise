@@ -47,3 +47,40 @@ print(c)
 print(type(a))
 print(type(b))
 print(type(c))
+
+txt = "The best things in life are free!"
+print("free" in txt)
+
+a = "Hello, World!"
+print(a.split(","))
+
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+age,year = 36,1980
+text = "I am {}, and born in {}"
+print(text.format(age,year))
+
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
+
+print(bool("Hello"))
+print(bool(15))
+print(bool([]))
+
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
